@@ -35,11 +35,10 @@ The goal is to solve this problem as efficiently as possible using evolutionary 
 
 ### Solution 1
 
-A possible encoding for the model could be through a chromosome in base 3 [0, 1, *], where each gene corresponds to an attribute. The final solution will consist of several individuals in a population that collectively contribute to the success of the prediction.
+Use binary chromosomes to indicate which attributes are considered, along with weight values for each attribute that determine its influence on the decision rule.
 
 ### Solution 2
-
-Another solution involves using binary chromosomes to indicate which attributes are considered, along with weight values for each attribute that determine its influence on the decision rule.
+A chromosome represents a Decision Tree made up of logic operators and attributes.
 
 ## Team
 
